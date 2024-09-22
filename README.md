@@ -4,7 +4,7 @@
 
 **The Polls Are Looking Good for Harris. With the 2016/20 Polling Error, She’s in Trouble as of Now.**
 
-So, I've started playing around with [FiveThirtyEight's publicly available polling data](https://projects.fivethirtyeight.com/polls/president-general/2024/national/?ex_cid=abcpromo). Why? Because I'm kind of just interested in the polling around the #2024USPresidentialElection and was wondering how I would construct my own little predition from scratch. So, here's what I did for a first try.
+So, I've started playing around with [FiveThirtyEight's publicly available polling data](https://projects.fivethirtyeight.com/polls/president-general/2024/national/?ex_cid=abcpromo). Why? Because I'm kind of just interested in the polling around the #2024USPresidentialElection and was wondering how I would construct my own little prediction from scratch. So, here's what I did for a first try.
 
 (Disclaimer: I'm not a professional data scientist. Playing around with the data and exploring some things is really my main focus.)
 
@@ -31,3 +31,5 @@ Following the “keep it simple” rule, let's assume the polling error in 2024 
 Now, one could argue that pollsters might have learned their lesson and polling will get more accurate again this year. This, however, was already an argument in 2020. Plus, at least part of the problem seems to be that certain Trump supporters simply don't want to participate in polls anymore due to trust issues (see, e.g., https://www.cnbc.com/2024/05/04/why-election-polls-were-wrong-in-2016-and-2020-and-whats-changing.html). Obviously, pollsters are trying to learn and adjust, but whether they'll be less of this year than in the two elections before, we'll only see on November 5. For now, I also don't take polling errors from 2022 elections into account. I have to read more on this first, and I assume that a presidential election is most similar to other presidential elections.
 
 So, for this first try, my own little forecast includes one prediction purely based on weighted polls from high-quality pollsters, and one prediction assuming the 2024 polling error will be the average of 2016 & 2020.
+
+(Link to post: https://twitter.com/maxspeicher/status/1837950963057152020)
