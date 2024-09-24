@@ -1,6 +1,38 @@
 # Max's 2024 U.S. Presidential Election Predictions
 
-## September 22, 2024
+## Latest Predictions
+
+### Based on 2024 Polling So Far
+
+| Candidate           | Expected EVs     |
+|---------------------|------------------|
+| 🔵 **Kamala Harris** | **279** 🏆        |
+| 🔴 Donald Trump      | 259              |
+
+![image](https://github.com/user-attachments/assets/1e135330-1ec5-4a59-8121-d28975fb1f31)
+
+### Adjusted by 2016/20 Polling Error
+
+| Candidate           | Expected EVs     |
+|---------------------|------------------|
+| 🔵 Kamala Harris     | 252              |
+| 🔴 **Donald Trump**  | **286** 🏆        |
+
+![image](https://github.com/user-attachments/assets/f5f2f3a5-66cf-4f37-99cc-81f307c86a83)
+
+## Updates
+
+### September 24, 2024
+
+I added the latest NYT/Siena polls that ran from Sep 17–21. Also, based on the probabilities for each candidate, my predictions now include expected electoral votes (EVs). This is what it looks like purely on the weighted 2024 polling (see methodology below):
+
+![image](https://github.com/user-attachments/assets/1e135330-1ec5-4a59-8121-d28975fb1f31)
+
+And these are the expected EVs when adjusting based on the averaged 2016/20 polling error:
+
+![image](https://github.com/user-attachments/assets/f5f2f3a5-66cf-4f37-99cc-81f307c86a83)
+
+### September 22, 2024
 
 **The Polls Are Looking Good for Harris. With the 2016/20 Polling Error, She’s in Trouble as of Now.**
 
