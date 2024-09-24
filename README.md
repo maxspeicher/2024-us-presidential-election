@@ -22,9 +22,11 @@
 
 ## Updates
 
+I also post regular updates on Twitter (now 𝕏): https://twitter.com/maxspeicher
+
 ### September 24, 2024
 
-I added the latest NYT/Siena polls that ran from Sep 17–21. Also, based on the probabilities for each candidate, my predictions now include expected electoral votes (EVs). This is what it looks like purely on the weighted 2024 polling (see methodology below):
+I added the latest NYT/Siena polls that ran from Sep 17–21. Also, based on the probabilities for each candidate, my predictions now include expected electoral votes (EVs). This is what it looks like purely based on the weighted 2024 polling (see methodology below):
 
 ![image](https://github.com/user-attachments/assets/1e135330-1ec5-4a59-8121-d28975fb1f31)
 
