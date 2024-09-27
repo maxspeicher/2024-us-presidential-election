@@ -6,23 +6,33 @@
 
 | Candidate           | Expected EVs     |
 |---------------------|------------------|
-| 🔵 **Kamala Harris** | **279** 🏆        |
-| 🔴 Donald Trump      | 259              |
+| 🔵 **Kamala Harris** | **282** 🏆        |
+| 🔴 Donald Trump      | 256              |
 
-![image](https://github.com/user-attachments/assets/1e135330-1ec5-4a59-8121-d28975fb1f31)
+<img width="694" alt="image" src="https://github.com/user-attachments/assets/ad0755fa-0d30-4404-acf1-afb1043ef5ef">
 
 ### Adjusted by 2016/20 Polling Error
 
 | Candidate           | Expected EVs     |
 |---------------------|------------------|
-| 🔵 Kamala Harris     | 252              |
-| 🔴 **Donald Trump**  | **286** 🏆        |
+| 🔵 Kamala Harris     | 254              |
+| 🔴 **Donald Trump**  | **284** 🏆        |
 
-![image](https://github.com/user-attachments/assets/f5f2f3a5-66cf-4f37-99cc-81f307c86a83)
+<img width="694" alt="image" src="https://github.com/user-attachments/assets/780da5f6-a29e-4ebe-b8da-a989fd7cd864">
 
 ## Updates
 
 I also post regular updates on Twitter (now 𝕏): https://twitter.com/maxspeicher
+
+### September 27, 2024
+
+The latest batch of polls from Marist College, Beacon Research/Shaw & Co. Research, and YouGov has been good for Harris. She's gaining 3 expected EVs in the weighted polls–only prediction:
+
+<img width="694" alt="image" src="https://github.com/user-attachments/assets/ad0755fa-0d30-4404-acf1-afb1043ef5ef">
+
+... and 2 expected EVs when adjusting for polling error:
+
+<img width="694" alt="image" src="https://github.com/user-attachments/assets/780da5f6-a29e-4ebe-b8da-a989fd7cd864">
 
 ### September 24, 2024
 
