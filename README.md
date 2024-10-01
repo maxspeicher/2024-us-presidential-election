@@ -6,23 +6,36 @@
 
 | Candidate           | Expected EVs     |
 |---------------------|------------------|
-| 🔵 **Kamala Harris** | **282** 🏆        |
-| 🔴 Donald Trump      | 256              |
+| 🔵 **Kamala Harris** | **276** 🏆        |
+| 🔴 Donald Trump      | 262              |
 
-<img width="694" alt="image" src="https://github.com/user-attachments/assets/ad0755fa-0d30-4404-acf1-afb1043ef5ef">
+<img width="693" alt="image" src="https://github.com/user-attachments/assets/6d7a85ec-52bc-47cd-b377-e33abf8ca312">
 
 ### Adjusted by 2016/20 Polling Error
 
 | Candidate           | Expected EVs     |
 |---------------------|------------------|
-| 🔵 Kamala Harris     | 254              |
-| 🔴 **Donald Trump**  | **284** 🏆        |
+| 🔵 Kamala Harris     | 249              |
+| 🔴 **Donald Trump**  | **289** 🏆        |
 
-<img width="694" alt="image" src="https://github.com/user-attachments/assets/780da5f6-a29e-4ebe-b8da-a989fd7cd864">
+<img width="692" alt="image" src="https://github.com/user-attachments/assets/4aeec3a4-649b-4e4d-9ea3-2b506efb6f28">
 
 ## Updates
 
 I also post regular updates on Twitter (now 𝕏): https://twitter.com/maxspeicher
+
+### October 1, 2024
+
+The most recent predictions include new polls from ABC News/Washington Post, Quinnipiac University, and Emerson College in AZ, GA, and NC. And things seem to be shifting in the opposite direction again. I'm also using an unbiased estimator for the calculation of the weighted standard deviation of the polling error now, for a more precise inference (cf. http://re-design.dimiter.eu/?p=290).
+
+Weighted polls only:
+
+<img width="693" alt="image" src="https://github.com/user-attachments/assets/6d7a85ec-52bc-47cd-b377-e33abf8ca312">
+
+After adjusting for polling error:
+
+<img width="692" alt="image" src="https://github.com/user-attachments/assets/4aeec3a4-649b-4e4d-9ea3-2b506efb6f28">
+
 
 ### September 27, 2024
 
@@ -34,6 +47,7 @@ The latest batch of polls from Marist College, Beacon Research/Shaw & Co. Resear
 
 <img width="694" alt="image" src="https://github.com/user-attachments/assets/780da5f6-a29e-4ebe-b8da-a989fd7cd864">
 
+
 ### September 24, 2024
 
 I added the latest NYT/Siena polls that ran from Sep 17–21. Also, based on the probabilities for each candidate, my predictions now include expected electoral votes (EVs). This is what it looks like purely based on the weighted 2024 polling (see methodology below):
@@ -43,6 +57,7 @@ I added the latest NYT/Siena polls that ran from Sep 17–21. Also, based on the
 And these are the expected EVs when adjusting based on the averaged 2016/20 polling error:
 
 ![image](https://github.com/user-attachments/assets/f5f2f3a5-66cf-4f37-99cc-81f307c86a83)
+
 
 ### September 22, 2024
 
