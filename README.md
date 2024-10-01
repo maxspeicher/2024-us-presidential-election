@@ -2,7 +2,7 @@
 
 ## Latest Predictions
 
-### Based on 2024 Polling So Far
+### Based on Weighted 2024 Polls So Far
 
 | Candidate           | Expected EVs     |
 |---------------------|------------------|
