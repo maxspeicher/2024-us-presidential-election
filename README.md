@@ -2,27 +2,77 @@
 
 ## Latest Predictions
 
-### Based on Weighted 2024 Polls So Far
+### Based on Weighted High-Quality Polls So Far
 
 | Candidate           | Expected EVs     |
 |---------------------|------------------|
-| 🔵 **Kamala Harris** | **276** 🏆        |
-| 🔴 Donald Trump      | 262              |
+| 🔵 **Kamala Harris** | **274** 🏆        |
+| 🔴 Donald Trump      | 264              |
 
-<img width="693" alt="image" src="https://github.com/user-attachments/assets/6d7a85ec-52bc-47cd-b377-e33abf8ca312">
+![image](https://github.com/user-attachments/assets/b272efea-54bc-4605-9447-ea054ab3eec8)
 
-### Adjusted by 2016/20 Polling Error
+
+### Adjusted by Full 2016/20 Polling Error
 
 | Candidate           | Expected EVs     |
 |---------------------|------------------|
-| 🔵 Kamala Harris     | 249              |
-| 🔴 **Donald Trump**  | **289** 🏆        |
+| 🔵 Kamala Harris     | 255              |
+| 🔴 **Donald Trump**  | **283** 🏆        |
 
-<img width="692" alt="image" src="https://github.com/user-attachments/assets/4aeec3a4-649b-4e4d-9ea3-2b506efb6f28">
+![image](https://github.com/user-attachments/assets/9c4274e0-5736-4619-93ed-bbcb2b399657)
+
+
+### Adjusted by Half 2016/20 Polling Error
+
+| Candidate           | Expected EVs     |
+|---------------------|------------------|
+| 🔵 Kamala Harris     | 262              |
+| 🔴 **Donald Trump**  | **276** 🏆        |
+
+![image](https://github.com/user-attachments/assets/415e1931-885e-4ade-a5fc-9c3303c0596e)
+
 
 ## Updates
 
 I also post regular updates on Twitter (now 𝕏): https://twitter.com/maxspeicher
+
+### October 9, 2024
+
+**Polling Error or No Polling Error? The Truth Will Probably Lie Somewhere in the Middle (Which Still Doesn’t Look Very Good for Harris)**
+
+So far, in my own little forecast for the 2024 U.S. presidential election, I've produced two predictions:
+
+① One purely based on a weighted average of high-quality 2024 polling.
+② The above, but corrected by the average of the 2016/20 polling error.
+
+(Please see [below](https://github.com/maxspeicher/2024-us-presidential-election?tab=readme-ov-file#september-22-2024) for details.)
+
+From now on, I'm going to include a third one, assuming this year's polling error will only be **half** of the 2016/20 average error. Let me elaborate.
+
+It's most probably just as unrealistic to assume there'll be negligible systematic polling error in the swing states this year (①) as to assume it'll be as big as in 2016/20 (②). The truth will most probably lie somewhere in the middle.
+
+Pollsters have been busy identifying reasons for their previous misses & finding potential fixes (https://abcnews.go.com/538/polling-broken-pollsters-face-trump-era-challenges/story). For instance, to tackle nonresponse bias & challenges in identifying likely voters, they increasingly rely on mixed modes to contact participants & have improved weighting based on the 2020 vote preferences of respondents. Hence, it's unlikely the polling error in 2024 will be as extensive as before.
+
+However, it's equally unlikely it'll all but disappear. While pollsters do have a good understanding of what probably caused polling errors in 2016/20, it's unclear if their adjustments will be effective. On top, there are efforts to make it harder for certain groups to vote, virtually all of which are carried out by Republicans (cf. https://www.democracydocket.com/). For instance, the RNC sued to remove thousands of registered voters in AZ, MI, NC, & NV (https://x.com/MuellerSheWrote/status/1837886286541279307). Also, there has been a deliberate reduction in polling places, often in predominantly black areas (https://civilrights.org/democracy-diverted/). Here, as well, the question is how effective these measures will be. But it's safe to assume there'll be people who participated in opinion polling with the intent to vote & then won't (be able to).
+
+Therefore, as already said, the truth will most probably lie somewhere in the middle. Ergo: a 3ʳᵈ prediction with half the polling error from the two previous election cycles. I've also adjusted one more thing in all predictions: as Pew Research explains, opinion polls' "real margin of error is often about double the one reported" (https://www.pewresearch.org/short-reads/2024/08/28/key-things-to-know-about-us-election-polling-in-2024/). Hence, I'm multiplying all standard deviations by 2 now.
+
+Alright, now—finally!—for my latest forecast.
+
+① Here's the state of the race based on weighted high-quality polls only:
+
+![image](https://github.com/user-attachments/assets/b272efea-54bc-4605-9447-ea054ab3eec8)
+
+② When adjusted by the full average polling error from 2016/20:
+
+![image](https://github.com/user-attachments/assets/9c4274e0-5736-4619-93ed-bbcb2b399657)
+
+③ And with just half the average polling error from 2016/20:
+
+![image](https://github.com/user-attachments/assets/415e1931-885e-4ade-a5fc-9c3303c0596e)
+
+(Link to post: https://twitter.com/maxspeicher/status/1844182045335179607)
+
 
 ### October 1, 2024
 
