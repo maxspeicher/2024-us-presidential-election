@@ -42,7 +42,7 @@ I also post regular updates on Twitter (now 𝕏): https://twitter.com/maxspeich
 
 So far, in my own little forecast for the 2024 U.S. presidential election, I've produced two predictions:
 
-① One purely based on a weighted average of high-quality 2024 polling.
+① One purely based on a weighted average of high-quality 2024 polling.<br />
 ② The above, but corrected by the average of the 2016/20 polling error.
 
 (Please see [below](https://github.com/maxspeicher/2024-us-presidential-election?tab=readme-ov-file#september-22-2024) for details.)
