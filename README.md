@@ -6,20 +6,20 @@
 
 | Candidate           | Expected EVs     |
 |---------------------|------------------|
-| 🔵 **Kamala Harris** | **274** 🏆        |
-| 🔴 Donald Trump      | 264              |
+| 🔵 **Kamala Harris** | **273** 🏆        |
+| 🔴 Donald Trump      | 265              |
 
-![image](https://github.com/user-attachments/assets/b272efea-54bc-4605-9447-ea054ab3eec8)
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/e3ee38b5-aa4e-498f-9adc-8fc3f73be260">
 
 
 ### Adjusted by Full 2016/20 Polling Error
 
 | Candidate           | Expected EVs     |
 |---------------------|------------------|
-| 🔵 Kamala Harris     | 255              |
-| 🔴 **Donald Trump**  | **283** 🏆        |
+| 🔵 Kamala Harris     | 254              |
+| 🔴 **Donald Trump**  | **284** 🏆        |
 
-![image](https://github.com/user-attachments/assets/9c4274e0-5736-4619-93ed-bbcb2b399657)
+<img width="754" alt="image" src="https://github.com/user-attachments/assets/43808f09-2748-4423-8a99-2c46593b1b39">
 
 
 ### Adjusted by Half 2016/20 Polling Error
@@ -29,12 +29,29 @@
 | 🔵 Kamala Harris     | 262              |
 | 🔴 **Donald Trump**  | **276** 🏆        |
 
-![image](https://github.com/user-attachments/assets/415e1931-885e-4ade-a5fc-9c3303c0596e)
+<img width="753" alt="image" src="https://github.com/user-attachments/assets/623db1bb-e728-4a9a-b2d5-ab7fb2557b47">
 
 
 ## Updates
 
 I also post regular updates on Twitter (now 𝕏): https://twitter.com/maxspeicher
+
+### October 17, 2024
+
+The latest state of the race. An ever so slight shift to Trump, but virtually nothing has changed over the past week.
+
+① Weighted high-quality polls only:
+
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/e3ee38b5-aa4e-498f-9adc-8fc3f73be260">
+
+② Adjusted by full average polling error from 2016/20:
+
+<img width="754" alt="image" src="https://github.com/user-attachments/assets/43808f09-2748-4423-8a99-2c46593b1b39">
+
+③ Adjusted by half average polling error from 2016/20:
+
+<img width="753" alt="image" src="https://github.com/user-attachments/assets/623db1bb-e728-4a9a-b2d5-ab7fb2557b47">
+
 
 ### October 9, 2024
 
