@@ -4,37 +4,78 @@
 
 ### Based on Weighted High-Quality Polls So Far
 
-| Candidate           | Expected EVs     |
-|---------------------|------------------|
-| 🔵 **Kamala Harris** | **273** 🏆        |
-| 🔴 Donald Trump      | 265              |
+| Candidate           | Expected EVs | Chance of Winning |
+|---------------------|--------------|-------------------|
+| 🔵 **Kamala Harris** | **273** 🏆    | **59%**           |
+| 🔴 Donald Trump      | 265          | 40%               |
 
-<img width="750" alt="image" src="https://github.com/user-attachments/assets/e3ee38b5-aa4e-498f-9adc-8fc3f73be260">
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/79b15253-1c56-4624-a615-ec7e0cfb7e4a">
 
 
 ### Adjusted by Full 2016/20 Polling Error
 
-| Candidate           | Expected EVs     |
-|---------------------|------------------|
-| 🔵 Kamala Harris     | 254              |
-| 🔴 **Donald Trump**  | **284** 🏆        |
+| Candidate           | Expected EVs | Chance of Winning |
+|---------------------|--------------|-------------------|
+| 🔵 Kamala Harris     | 254          | 17%               |
+| 🔴 **Donald Trump**  | **284** 🏆    | **82%**           |
 
-<img width="754" alt="image" src="https://github.com/user-attachments/assets/43808f09-2748-4423-8a99-2c46593b1b39">
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/92718dc4-0d38-4977-a2d8-2d32bdfa75af">
 
 
 ### Adjusted by Half 2016/20 Polling Error
 
-| Candidate           | Expected EVs     |
-|---------------------|------------------|
-| 🔵 Kamala Harris     | 262              |
-| 🔴 **Donald Trump**  | **276** 🏆        |
+| Candidate           | Expected EVs | Chance of Winning |
+|---------------------|--------------|-------------------|
+| 🔵 Kamala Harris     | 261          | 32%               |
+| 🔴 **Donald Trump**  | **277** 🏆    | **67%**           |
 
-<img width="753" alt="image" src="https://github.com/user-attachments/assets/623db1bb-e728-4a9a-b2d5-ab7fb2557b47">
+<img width="698" alt="image" src="https://github.com/user-attachments/assets/9bba3f41-17ca-4562-a5da-2a418ea742d0">
 
 
 ## Updates
 
 I also post regular updates on Twitter (now 𝕏): https://twitter.com/maxspeicher
+
+And I've discovered Bluesky: https://maxspeicher.bsky.social/
+
+### October 24, 2024
+
+There's still barely any movement and the race has seemingly stalled.
+
+① No changes in expected EVs for each candidate based on high-quality polling:
+
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/79b15253-1c56-4624-a615-ec7e0cfb7e4a">
+
+② Same when adjusting for the average 2016/20 polling error – no gains or losses in expected EVs despite some slight changes in probabilities:
+
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/92718dc4-0d38-4977-a2d8-2d32bdfa75af">
+
+③ The only noticeable change: Compared to one week ago, Trump gains 1 expected EV in the scenario with a half 2016/20 polling error:
+
+<img width="698" alt="image" src="https://github.com/user-attachments/assets/9bba3f41-17ca-4562-a5da-2a418ea742d0">
+
+What I'll be adding from now on are each candidate's chances of winning the entire election. Together with the expected EVs, this should give a relatively complete picture. I'm calculating those chances using a Monte Carlo simulation in which I simulate the election in the 7 swing states a total of 1000000 times. You can find the code at https://colab.research.google.com/drive/1XOjITUeGjyDmC1fe3c27AmkbuYbaSZEy?usp=sharing, and I'll also upload the `.ipynb` and `.py` files here.
+
+```
+① Weighted high-quality polls
+===============================
+Harris's probability of winning: 59.10%
+Trump's probability of winning: 39.71%
+Probability of tie: 1.19%
+
+② With full 2016/20 polling error
+===============================
+Harris's probability of winning: 16.72%
+Trump's probability of winning: 82.06%
+Probability of tie: 1.23%
+
+③ With half 2016/20 polling error
+===============================
+Harris's probability of winning: 31.67%
+Trump's probability of winning: 67.01%
+Probability of tie: 1.32%
+```
+
 
 ### October 17, 2024
 
