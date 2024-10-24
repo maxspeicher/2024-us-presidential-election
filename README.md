@@ -32,6 +32,11 @@
 <img width="698" alt="image" src="https://github.com/user-attachments/assets/9bba3f41-17ca-4562-a5da-2a418ea742d0">
 
 
+## Monte Carlo Simulation
+
+You can find the latest simulations for calculating the chances of winning the election at https://colab.research.google.com/drive/1XOjITUeGjyDmC1fe3c27AmkbuYbaSZEy?usp=sharing or in the `monte_carlo` folder.
+
+
 ## Updates
 
 I also post regular updates on Twitter (now 𝕏): https://twitter.com/maxspeicher
