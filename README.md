@@ -2,6 +2,8 @@
 
 ## Latest Predictions
 
+👇🏻 Check the first update from September 22 for [details on methodology](#september-22-2024).
+
 ### Based on Weighted High-Quality Polls So Far
 
 | Candidate           | Expected EVs | Chance of Winning |
