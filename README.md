@@ -8,30 +8,30 @@
 
 | Candidate           | Expected EVs | Chance of Winning |
 |---------------------|--------------|-------------------|
-| 🔵 **Kamala Harris** | **273** 🏆    | **59%**           |
-| 🔴 Donald Trump      | 265          | 40%               |
+| 🔵 **Kamala Harris** | **271** 🏆    | **55%**           |
+| 🔴 Donald Trump      | 267          | 44%               |
 
-<img width="695" alt="image" src="https://github.com/user-attachments/assets/79b15253-1c56-4624-a615-ec7e0cfb7e4a">
-
-
-### Adjusted by Full 2016/20 Polling Error
-
-| Candidate           | Expected EVs | Chance of Winning |
-|---------------------|--------------|-------------------|
-| 🔵 Kamala Harris     | 254          | 17%               |
-| 🔴 **Donald Trump**  | **284** 🏆    | **82%**           |
-
-<img width="695" alt="image" src="https://github.com/user-attachments/assets/92718dc4-0d38-4977-a2d8-2d32bdfa75af">
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/9216b075-0a29-496f-9864-191d7d211ef9">
 
 
-### Adjusted by Half 2016/20 Polling Error
+### Adjusted by Full 2016/20 Polling Bias
 
 | Candidate           | Expected EVs | Chance of Winning |
 |---------------------|--------------|-------------------|
-| 🔵 Kamala Harris     | 261          | 32%               |
-| 🔴 **Donald Trump**  | **277** 🏆    | **67%**           |
+| 🔵 Kamala Harris     | 252          | 14%               |
+| 🔴 **Donald Trump**  | **286** 🏆    | **85%**           |
 
-<img width="698" alt="image" src="https://github.com/user-attachments/assets/9bba3f41-17ca-4562-a5da-2a418ea742d0">
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/7fc9ced9-74da-480e-9a74-03c31b8b2bf2">
+
+
+### Adjusted by Half 2016/20 Polling Bias
+
+| Candidate           | Expected EVs | Chance of Winning |
+|---------------------|--------------|-------------------|
+| 🔵 Kamala Harris     | 259          | 27%               |
+| 🔴 **Donald Trump**  | **279** 🏆    | **71%**           |
+
+<img width="697" alt="image" src="https://github.com/user-attachments/assets/6ca310c7-a6c9-4ced-936f-4f9b239b0b82">
 
 
 ## Monte Carlo Simulation
@@ -44,6 +44,45 @@ You can find the latest simulations for calculating the chances of winning the e
 I also post regular updates on Twitter (now 𝕏): https://twitter.com/maxspeicher
 
 And I've discovered Bluesky: https://maxspeicher.bsky.social/
+
+### November 1, 2024
+
+It's getting really tight. The latest batch of polls has been a good one for Trump.
+
+① If the high-quality polls are correct, Harris is the slight favorite, but well ... flip a coin. As far as the Democrats are concerned, there's barely any room for a polling bias underestimating Trump if they want to have a half-decent shot at winning. Again, _if_ we wanna believe the polls ...
+
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/9216b075-0a29-496f-9864-191d7d211ef9">
+
+② If the polling bias will be similar to 2016/20, it's probably a done deal for Trump.
+
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/7fc9ced9-74da-480e-9a74-03c31b8b2bf2">
+
+③ Even with just half the polling bias from 2016/20, he's the favorite in all swing states.
+
+<img width="697" alt="image" src="https://github.com/user-attachments/assets/6ca310c7-a6c9-4ced-936f-4f9b239b0b82">
+
+Correspondingly, the chances of winning the election look like this for the three scenarios:
+
+```
+① Weighted high-quality polls
+==============================
+Harris's probability of winning: 55.07%
+Trump's probability of winning: 43.82%
+Probability of tie: 1.10%
+
+② With full 2016/20 polling error
+==============================
+Harris's probability of winning: 13.94%
+Trump's probability of winning: 84.95%
+Probability of tie: 1.11%
+
+③ With half 2016/20 polling error
+==============================
+Harris's probability of winning: 27.34%
+Trump's probability of winning: 71.46%
+Probability of tie: 1.20%
+```
+
 
 ### October 24, 2024
 
