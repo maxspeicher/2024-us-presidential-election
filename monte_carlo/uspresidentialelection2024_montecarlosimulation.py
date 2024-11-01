@@ -7,6 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1XOjITUeGjyDmC1fe3c27AmkbuYbaSZEy
 
 # 2024 U.S. Presidential Election: Chances of Winning
+
+## Data per Swing State
 """
 
 # Define swing states with their electoral votes (ev)
@@ -14,7 +16,36 @@ states = {'AZ': 11, 'GA': 16, 'MI': 15, 'NV': 6, 'NC': 16, 'PA': 19, 'WI': 10};
 
 # Define win probabilities, margins and, standard deviations for each of the 3 scenarios per swing state
 input = {
-    'latest': { # October 24, 2024
+    'latest': { # November 1, 2024
+        'AZ': {'1': {'prob_harris': 0.28, 'margin': -2.9, 'sd': 5.1},
+               '2': {'prob_harris': 0.25, 'margin': -4.2, 'sd': 6.2},
+               '3': {'prob_harris': 0.25, 'margin': -3.6, 'sd': 5.4}},
+
+        'GA': {'1': {'prob_harris': 0.40, 'margin': -1.4, 'sd': 5.4},
+               '2': {'prob_harris': 0.40, 'margin': -1.6, 'sd': 6.7},
+               '3': {'prob_harris': 0.40, 'margin': -1.5, 'sd': 5.8}},
+
+        'MI': {'1': {'prob_harris': 0.57, 'margin':  1.0, 'sd': 5.5},
+               '2': {'prob_harris': 0.30, 'margin': -3.6, 'sd': 6.8},
+               '3': {'prob_harris': 0.41, 'margin': -1.3, 'sd': 5.9}},
+
+        'NV': {'1': {'prob_harris': 0.54, 'margin':  0.6, 'sd': 5.1},
+               '2': {'prob_harris': 0.46, 'margin': -0.8, 'sd': 6.9},
+               '3': {'prob_harris': 0.49, 'margin': -0.1, 'sd': 5.6}},
+
+        'NC': {'1': {'prob_harris': 0.47, 'margin': -0.4, 'sd': 4.1},
+               '2': {'prob_harris': 0.19, 'margin': -4.9, 'sd': 5.6},
+               '3': {'prob_harris': 0.28, 'margin': -2.6, 'sd': 4.5}},
+
+        'PA': {'1': {'prob_harris': 0.55, 'margin':  0.6, 'sd': 4.8},
+               '2': {'prob_harris': 0.21, 'margin': -4.8, 'sd': 6.1},
+               '3': {'prob_harris': 0.34, 'margin': -2.1, 'sd': 5.1}},
+
+        'WI': {'1': {'prob_harris': 0.63, 'margin':  1.6, 'sd': 5.1},
+               '2': {'prob_harris': 0.25, 'margin': -4.6, 'sd': 6.7},
+               '3': {'prob_harris': 0.40, 'margin': -1.5, 'sd': 5.5}}
+    },
+    '2024-10-24': { # October 24, 2024
         'AZ': {'1': {'prob_harris': 0.30, 'margin': -2.7, 'sd': 5.2},
                '2': {'prob_harris': 0.26, 'margin': -4.0, 'sd': 6.3},
                '3': {'prob_harris': 0.27, 'margin': -3.4, 'sd': 5.5}},
@@ -47,7 +78,7 @@ input = {
 
 """## **Version 1**: `random.random()`
 
-Based on probabilities from https://github.com/maxspeicher/2024-us-presidential-election, as of October 24, 2024
+Based on probabilities from https://github.com/maxspeicher/2024-us-presidential-election, as of November 1, 2024
 """
 
 import random
@@ -86,7 +117,7 @@ scenarios = {
 
 for scenario in ['1','2','3']:
   win_probability = monte_carlo_simulation(scenario)
-  print(f"{scenarios[scenario]}\n===============================")
+  print(f"{scenarios[scenario]}\n==============================")
   print(f"Harris's probability of winning: {win_probability['harris']:.2%}")
   print(f"Trump's probability of winning: {win_probability['trump']:.2%}")
   print(f"Probability of tie: {(1-win_probability['trump']-win_probability['harris']):.2%}\n")
@@ -95,7 +126,7 @@ for scenario in ['1','2','3']:
 
 ## **Version 2**: `np.random.normal(...)`
 
-Based on polling margins and standard deviations from https://github.com/maxspeicher/2024-us-presidential-election, as of October 24, 2024
+Based on polling margins and standard deviations from https://github.com/maxspeicher/2024-us-presidential-election, as of November 1, 2024
 """
 
 import random
@@ -138,7 +169,7 @@ scenarios = {
 
 for scenario in ['1','2','3']:
   win_probability = monte_carlo_simulation(scenario)
-  print(f"{scenarios[scenario]}\n===============================")
+  print(f"{scenarios[scenario]}\n==============================")
   print(f"Harris's probability of winning: {win_probability['harris']:.2%}")
   print(f"Trump's probability of winning: {win_probability['trump']:.2%}")
   print(f"Probability of tie: {(1-win_probability['trump']-win_probability['harris']):.2%}\n")
