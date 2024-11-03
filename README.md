@@ -45,6 +45,61 @@ I also post regular updates on Twitter (now 𝕏): https://twitter.com/maxspeich
 
 And I've discovered Bluesky: https://maxspeicher.bsky.social/
 
+### November 2, 2024: Election Forecasts, Schmelection Forecasts
+
+**What if pollsters are just too afraid of Trump this time around?**
+
+Out of curiosity about the data-science side of things, in September, I started my [own little forecast](https://github.com/maxspeicher/2024-us-presidential-election) for the 2024 U.S. presidential election, which considers three different scenarios: ① based on weighted high-quality polls only; ② adjusted by the average polling bias from 2016/20; and ③ adjusted by just **half** the 2016/20 bias. I’ve previously written about my methodology and predictions [here](https://hackernoon.com/the-polls-are-looking-good-for-harris-with-the-201620-polling-error-shes-in-trouble-as-of-now) and [here](https://hackernoon.com/polling-error-or-no-polling-error-the-truth-will-probably-lie-somewhere-in-the-middle).
+
+In the latter article, I lay out why I believe another polling bias underestimating Trump is a very real—even probable—possibility that can’t be dismissed. Trump as a candidate seems to completely defy the laws of “normal” elections. It’s unclear how much pollsters have understood and fixed the reasons for their misses in the past 2 elections; the “shy Trump voter” might still exist. On top, Republican-initiated voter suppression—like purging voters from voter rolls in Virginia this close to an election, as [recently allowed by the Supreme Court](https://www.npr.org/2024/10/30/g-s1-30644/supreme-court-virginia-elections)—will disadvantage Democrats in at least some places, which can’t be captured by opinion polling.
+
+In the past weeks, however, I’ve also seen arguments as to why things could be the other way ‘round this time, and I must admit that I find some of them quite convincing.
+
+[Mason McCann argues](https://twitter.com/__Guntar__/status/1851339376196010260) around campaign-related fundamentals and that Harris has an advantage in every single one of them: money, ground game, vibe, you name it. And it’s true that it seems the Trump campaign can’t really keep up with these. While my take has been that this election is probably most similar to 2016/20 (based on the assumption that you can’t compare elections involving Trump to “normal” elections), McCann argues it might actually be closer to 2012 due to certain similarities: an “enthusiastic” campaign, “perceptions of a bad economy,” and a “very overconfident republican campaign,” among others. Finally, he makes the point that 2024 is different from 2016/20 in that HRC simply didn’t do a lot of campaigning in the rust belt and in 2020, there was no GOTV ground game due to Covid, which, of course, looks **very** different this year.
+
+So, campaign-related fundamentals point to Harris, and admittedly, this is hard to capture in a purely polling-based forecast. If Dems manage to get their supporters to vote in bigger numbers than in 2016/20—and observations so far suggest this—there might be “a mild surprise when the electorate is not as GOP as the pollsters assume,” [writes Dan Guild](https://twitter.com/dcg1114/status/1851779439899578606). “Pollsters consistently assume a very Republican electorate—my guess is to avoid ’16/’20.”
+
+Nate Cohn admits as much in [his latest article](https://www.nytimes.com/2024/11/01/upshot/so-can-we-trust-the-polls.html). And @Angry_Staffer, based on this, [writes](https://twitter.com/Angry_Staffer/status/1852421106155540596): “Basically, pollsters are terrified of being wrong again, so they’re flat-out ignoring ‘very blue’ results.”
+
+So, just for funsies, let’s take a look at the case that this year will play out like 2012, shall we? Luckily, Prof. Jacob Long has done a fantastic job [analyzing and providing past polling biases on his blog](https://jacob-long.com/post/polling-errors-map-24/), and that’s what I’ll be working with. I’ll just add the point estimate for the bias to my own polling averages without adjusting the standard deviation. Simply to get a quick, general idea in which direction this would move the forecast. We’re all just 🔮ing here anyway.
+
+As a reminder, this is what my current prediction based on weighted high-quality polls only looks like. Michigan, Nevada, North Carolina, and Pennsylvania are toss-ups (according to 538’s definition). Overall, Harris is the ever so slight favorite.
+
+<img width="772" alt="image" src="https://github.com/user-attachments/assets/911c9be0-a0b6-481f-9cf1-7c225e408b13">
+
+And when we adjust by the 2012 polling bias, we get this:
+
+<img width="772" alt="image" src="https://github.com/user-attachments/assets/ecd49edc-8237-4d72-bc3b-ff763291f9a0">
+
+This would look a lot better for Democrats, but it’s still a relatively close race. Georgia is a toss-up now while Harris has much more comfortable chances in Michigan and Nevada. I’ve also run [my Monte Carlo simulation](https://colab.research.google.com/drive/1XOjITUeGjyDmC1fe3c27AmkbuYbaSZEy?usp=sharing) with these probabilities:
+
+```
+④ With 2012 polling bias
+===============================
+Harris's probability of winning: 71.38%
+Trump's probability of winning: 28.20%
+Probability of tie: 0.41%
+```
+
+While we’re at it, let’s also have a look at how the 2022 polling bias—from the most recent and first “post-Covid” election—would change the predictions:
+
+<img width="774" alt="image" src="https://github.com/user-attachments/assets/7c143004-5db5-4e28-ad96-de92fca7c7de">
+
+Most significantly here, Michigan, Pennsylvania, and Wisconsin are now lean or likely D. And these are also the ones where Harris is the favorite in all three of the above scenarios. Chances of winning with the 2022 polling bias:
+
+```
+⑤ With 2022 polling bias
+===============================
+Harris's probability of winning: 66.56%
+Trump's probability of winning: 33.10%
+Probability of tie: 0.34%
+```
+
+So, what are we gonna do with this now? What’s **the** prediction? Who has the better chances of winning the election, and how good are they? I have no clue whatsoever. As I already said above, it’s all 🔮ing at this point in time. There are so many variables in this, so many things that could go one or the other way … What we can do at best is think about which scenarios are maybe a bit more likely than others. My opinion on this: Accurate polls (①) and the same polling bias as in 2016/20 (②) are rather unlikely. Which leaves ③ (half 2016/20 bias), ④ (2012 bias), and ⑤ (2022 bias) as the more likely of my scenarios.
+
+In any case, the election is gonna happen, there’ll be a winner, and there’ll be one option that was closer than the others. All we need is just a little more patience.
+
+
 ### November 1, 2024
 
 It's getting really tight. The latest batch of polls has been a good one for Trump.
