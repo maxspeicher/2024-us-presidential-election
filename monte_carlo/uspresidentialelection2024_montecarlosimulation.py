@@ -16,7 +16,36 @@ states = {'AZ': 11, 'GA': 16, 'MI': 15, 'NV': 6, 'NC': 16, 'PA': 19, 'WI': 10};
 
 # Define win probabilities, margins and, standard deviations for each of the 3 scenarios per swing state
 input = {
-    'latest': { # November 1, 2024
+    'latest': { # November 5, 2024
+        'AZ': {'1': {'prob_harris': 0.28, 'margin': -3.1, 'sd': 5.2},
+               '2': {'prob_harris': 0.24, 'margin': -4.4, 'sd': 6.3},
+               '3': {'prob_harris': 0.25, 'margin': -3.7, 'sd': 5.5}},
+
+        'GA': {'1': {'prob_harris': 0.41, 'margin': -1.2, 'sd': 5.3},
+               '2': {'prob_harris': 0.42, 'margin': -1.4, 'sd': 6.6},
+               '3': {'prob_harris': 0.41, 'margin': -1.3, 'sd': 5.6}},
+
+        'MI': {'1': {'prob_harris': 0.55, 'margin':  0.8, 'sd': 5.8},
+               '2': {'prob_harris': 0.30, 'margin': -3.8, 'sd': 7.0},
+               '3': {'prob_harris': 0.40, 'margin': -1.5, 'sd': 6.1}},
+
+        'NV': {'1': {'prob_harris': 0.52, 'margin':  0.2, 'sd': 5.1},
+               '2': {'prob_harris': 0.44, 'margin': -1.1, 'sd': 6.9},
+               '3': {'prob_harris': 0.47, 'margin': -0.4, 'sd': 5.6}},
+
+        'NC': {'1': {'prob_harris': 0.47, 'margin': -0.3, 'sd': 4.5},
+               '2': {'prob_harris': 0.20, 'margin': -4.9, 'sd': 5.8},
+               '3': {'prob_harris': 0.29, 'margin': -2.6, 'sd': 4.8}},
+
+        'PA': {'1': {'prob_harris': 0.55, 'margin':  0.6, 'sd': 4.4},
+               '2': {'prob_harris': 0.20, 'margin': -4.8, 'sd': 5.8},
+               '3': {'prob_harris': 0.33, 'margin': -2.1, 'sd': 4.8}},
+
+        'WI': {'1': {'prob_harris': 0.63, 'margin':  1.6, 'sd': 4.9},
+               '2': {'prob_harris': 0.24, 'margin': -4.6, 'sd': 6.5},
+               '3': {'prob_harris': 0.39, 'margin': -1.5, 'sd': 5.4}}
+    },
+    '2024-11-01': { # November 1, 2024
         'AZ': {'1': {'prob_harris': 0.28, 'margin': -2.9, 'sd': 5.1},
                '2': {'prob_harris': 0.25, 'margin': -4.2, 'sd': 6.2},
                '3': {'prob_harris': 0.25, 'margin': -3.6, 'sd': 5.4}},
@@ -78,7 +107,7 @@ input = {
 
 """## **Version 1**: `random.random()`
 
-Based on probabilities from https://github.com/maxspeicher/2024-us-presidential-election, as of November 1, 2024
+Based on probabilities from https://github.com/maxspeicher/2024-us-presidential-election, as of November 5, 2024
 """
 
 import random
@@ -126,7 +155,7 @@ for scenario in ['1','2','3']:
 
 ## **Version 2**: `np.random.normal(...)`
 
-Based on polling margins and standard deviations from https://github.com/maxspeicher/2024-us-presidential-election, as of November 1, 2024
+Based on polling margins and standard deviations from https://github.com/maxspeicher/2024-us-presidential-election, as of November 5, 2024
 """
 
 import random
@@ -170,6 +199,61 @@ scenarios = {
 for scenario in ['1','2','3']:
   win_probability = monte_carlo_simulation(scenario)
   print(f"{scenarios[scenario]}\n==============================")
+  print(f"Harris's probability of winning: {win_probability['harris']:.2%}")
+  print(f"Trump's probability of winning: {win_probability['trump']:.2%}")
+  print(f"Probability of tie: {(1-win_probability['trump']-win_probability['harris']):.2%}\n")
+
+"""## Adjusted by 2012 & 2022 Polling Bias
+
+Based on probabilities from https://github.com/maxspeicher/2024-us-presidential-election, as of November 5, 2024
+"""
+
+import random
+
+probabilities_harris = {
+    'AZ': {'4': 0.20, '5': 0.32},
+    'GA': {'4': 0.50, '5': 0.30},
+    'MI': {'4': 0.81, '5': 0.76},
+    'NV': {'4': 0.70, '5': 0.46},
+    'NC': {'4': 0.47, '5': 0.35},
+    'PA': {'4': 0.58, '5': 0.74},
+    'WI': {'4': 0.75, '5': 0.73},
+}
+
+def run_election(scenario):
+    ev_total_harris = 0
+    ev_total_trump  = 0
+    for state, info in probabilities_harris.items():
+        # Simulate the election outcome for each state
+        if random.random() < info[scenario]:
+            ev_total_harris += states[state]
+        else:
+            ev_total_trump += states[state]
+
+    return {'harris': ev_total_harris, 'trump': ev_total_trump}
+
+def monte_carlo_simulation(scenario, num_simulations=1000000):
+    ev_needed_harris = 270 - 226  # Electoral votes Harris needs from swing states to reach 270
+    ev_needed_trump  = 270 - 219  # Electoral votes Trump needs from swing states to reach 270
+    wins_harris = 0
+    wins_trump  = 0
+
+    for _ in range(num_simulations):
+        result = run_election(scenario)
+        wins_harris += (result['harris'] >= ev_needed_harris)
+        wins_trump  += (result['trump']  >= ev_needed_trump)
+
+    return {'harris': wins_harris / num_simulations, 'trump': wins_trump / num_simulations}
+
+# Run one Monte Carlo simulation for each scenario and print the probabilities of winning/tie
+scenarios = {
+    '4': '④ With 2012 polling bias',
+    '5': '⑤ With 2022 polling bias',
+}
+
+for scenario in ['4','5']:
+  win_probability = monte_carlo_simulation(scenario)
+  print(f"{scenarios[scenario]}\n===============================")
   print(f"Harris's probability of winning: {win_probability['harris']:.2%}")
   print(f"Trump's probability of winning: {win_probability['trump']:.2%}")
   print(f"Probability of tie: {(1-win_probability['trump']-win_probability['harris']):.2%}\n")
