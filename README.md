@@ -1,17 +1,17 @@
 # Max's 2024 U.S. Presidential Election Predictions
 
-## Latest Predictions
+## Final Predictions (morning of November 5, 2024)
 
 👇🏻 Check the first update from September 22 for [details on methodology](#september-22-2024).
 
-### Based on Weighted High-Quality Polls So Far
+### Based on Weighted High-Quality Polls
 
 | Candidate           | Expected EVs | Chance of Winning |
 |---------------------|--------------|-------------------|
-| 🔵 **Kamala Harris** | **271** 🏆    | **55%**           |
+| 🔵 **Kamala Harris** | **271** 🏆    | **54%**           |
 | 🔴 Donald Trump      | 267          | 44%               |
 
-<img width="695" alt="image" src="https://github.com/user-attachments/assets/9216b075-0a29-496f-9864-191d7d211ef9">
+<img width="695" alt="image" src="https://github.com/user-attachments/assets/da1ae791-2bad-4e7e-97ba-5e5a6a04a6a4">
 
 
 ### Adjusted by Full 2016/20 Polling Bias
@@ -21,7 +21,7 @@
 | 🔵 Kamala Harris     | 252          | 14%               |
 | 🔴 **Donald Trump**  | **286** 🏆    | **85%**           |
 
-<img width="695" alt="image" src="https://github.com/user-attachments/assets/7fc9ced9-74da-480e-9a74-03c31b8b2bf2">
+<img width="699" alt="image" src="https://github.com/user-attachments/assets/a0dcaad0-3e30-4b96-843a-ae885b76f67c">
 
 
 ### Adjusted by Half 2016/20 Polling Bias
@@ -29,9 +29,29 @@
 | Candidate           | Expected EVs | Chance of Winning |
 |---------------------|--------------|-------------------|
 | 🔵 Kamala Harris     | 259          | 27%               |
-| 🔴 **Donald Trump**  | **279** 🏆    | **71%**           |
+| 🔴 **Donald Trump**  | **279** 🏆    | **72%**           |
 
-<img width="697" alt="image" src="https://github.com/user-attachments/assets/6ca310c7-a6c9-4ced-936f-4f9b239b0b82">
+<img width="721" alt="image" src="https://github.com/user-attachments/assets/de8718f8-192e-4dd5-a6bb-cd312596db70">
+
+
+### Adjusted by 2012 Polling Bias
+
+| Candidate           | Expected EVs | Chance of Winning |
+|---------------------|--------------|-------------------|
+| 🔵 **Kamala Harris** | **279** 🏆    | **71%**           |
+| 🔴 Donald Trump      | 259          | 28%               |
+
+<img width="696" alt="image" src="https://github.com/user-attachments/assets/6843b54f-262a-4136-b02c-7420930ef6e3">
+
+
+### Adjusted by 2022 Polling Bias
+
+| Candidate           | Expected EVs | Chance of Winning |
+|---------------------|--------------|-------------------|
+| 🔵 **Kamala Harris** | **275** 🏆    | **68%**           |
+| 🔴 Donald Trump      | 263          | 32%               |
+
+<img width="696" alt="image" src="https://github.com/user-attachments/assets/d6f374fa-7e07-4307-a31d-19b52357ee0d">
 
 
 ## Monte Carlo Simulation
