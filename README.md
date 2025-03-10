@@ -63,7 +63,34 @@ You can find the latest simulations for calculating the chances of winning the e
 
 I also post regular updates on Twitter (now 𝕏): https://twitter.com/maxspeicher
 
-And I've discovered Bluesky: https://maxspeicher.bsky.social/
+And I've discovered Bluesky: https://bsky.app/profile/maxspeicher.com
+
+### March 10, 2025: Post-Mortem -- How My Predictions Fared
+
+Like many others, it took me a while to digest the results of the 2024 U.S. presidential election. But there's one more important thing to do: to analyze how the predictions I made actually fared. And I finally got around to doing that.
+
+I generally made three different predictions: ① Based on weighted high-quality polls only (I downloaded those from 538); ② With the full average polling error from the 2016 and 2020 elections; and ③ With just **half** the 2016/20 polling error.
+
+What was my reasoning for accounting for the polling error from 2016 and 2020? "I'm not considering elections before that because ever since Trump entered the stage, election dynamics have significantly changed. Old rules don't apply anymore. 2024 will be much more similar to 2020 & 2016 than to any election before that." (See my very first [update from September 22, 2024](https://github.com/maxspeicher/2024-us-presidential-election?tab=readme-ov-file#september-22-2024).)
+
+And why did I include the one with the half polling error? In my [update from October 9, 2024](https://github.com/maxspeicher/2024-us-presidential-election?tab=readme-ov-file#october-9-2024), I wrote: "It's most probably just as unrealistic to assume there'll be negligible systematic polling error in the swing states this year (①) as to assume it'll be as big as in 2016/20 (②). The truth will most probably lie somewhere in the middle."
+
+Beginning of November -- based on very reasonable-sounding arguments -- I also started looking into whether the polling errors from 2012 and 2022 might be relevant to consider. Unfortunately, those arguments turned out to be completely wrong, so we won't consider predictions ④ and ⑤ in this post-mortem analysis.
+
+What predictions ① thru ③ did was to predict the winning margin the seven swing states, which then yielded a probability of winning in each state for the candidates, expected electoral votes (EVs), and, combined (and based on a Monte Carlo simulation), an overall chance of winning the whole thing. What I will focus on here is to look at how far off my predicitons were from the actual margins in the swing states, because those were the ones on which all other components of my forecast were based.
+
+I have chosen to do so with three common approaches: directional accuracy, mean absolute error (MAE), and root mean square error (RMSE). While MAE simply calculates the absolute difference between predicted margins and actual margins and then averages these values, RMSE penalizes large errors more heavily. I will also do MAE and RMSE for an equal weighting of the seven swing states and for an EV-based weighting each. Equal weighting treats each state prediction with equal importance, focusing purely on predictive accuracy regardless of strategic importance. EV-based weighting, however, better reflects the electoral significance of each prediction.
+
+All of that being said, let's get to it. Let's see how my predictions fared.
+
+| Metric | Method 1 | Method 2 | Method 3 |
+|--------|----------|----------|----------|
+| Directional Accuracy | 42.9% | 100% | 100% |
+| MAE (equal weights) | 2.37 | 2.11 | 1.01 |
+| RMSE (equal weights) | 2.46 | 2.32 | 1.32 |
+| MAE (EV-weighted) | 2.26 | 2.11 | 0.81 |
+| RMSE (EV-weighted) | 2.35 | 2.32 | 1.06 |
+
 
 ### November 2, 2024: Election Forecasts, Schmelection Forecasts
 
